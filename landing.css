@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400&family=Open+Sans:wght@300&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:wght@300&family=Preahvihear&display=swap');
+
+.navbar{
+    background-color: transparent;
+    margin: 10px;
+    color: white;
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  margin: 15px;
+  margin-right: 100px;
+
+}
+
+a{
+  color: white;
+}
+
+input{
+  position: relative;
+  height: 40px;
+  width: 300px;
+  border: solid white;
+  border-radius: 15px;
+  background-color: white;
+  padding: 10px;
+  z-index: 2;
+
+}
+
+.link{
+  margin: 50px;
+  color: white;
+  text-decoration: none;
+
+  
+}
+.color-change-2x {
+
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(0, 98, 163);
+  background: linear-gradient(273deg, rgb(11, 67, 219) 35%, rgb(11, 67, 219 100%));
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+  
+.lp-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 200px 200px 20px;
+    width: 400px;
+    height: 460px;
+    border: solid white 2px;
+    border-radius: 20px;
+    background-color: rgb(124, 192, 255);
+    opacity: 0.6;
+    padding: 50px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+    -webkit-box-shadow: 10px 10px 43px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 43px -3px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 43px -3px rgba(0,0,0,0.5);
+
+    
+}
+
+.info1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.6;
+  
+}
+
+.mb-3{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 105%;
+  opacity: 0.3;
+}
+
+.btn{
+  background-color: rgb(4, 37, 128);
+  opacity: 1;
+  width: 300px;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
